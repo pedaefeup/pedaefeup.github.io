@@ -1452,7 +1452,7 @@
 	/*Panel thing*/
 	.panel-default{
 	color: #8c2d19;
-		
+
 	}
 .panel-title a{
 	font-family: LemonMilk;
@@ -2179,8 +2179,14 @@
 	font-family: LemonMilk;
 }
 
- .speaker { 
- 	color:#8c2d19; 
+.title_slot{
+  color: #323232;
+/*font-family: Verdana;*/
+}
+
+ .speaker {
+ 	color:#8c2d19;
+  /*font-family: Verdana;*/
  }
  .time_program{
 	color: white;
@@ -2191,16 +2197,16 @@
 	color:black;
 }
 
-tr:hover { 
-   background: #C4BFBC; 
+tr:hover {
+   background: #C4BFBC;
    padding: 16px;
 }
-td a { 
-   display: block; 
+td a {
+   display: block;
 
 
 }
-td a:hover { 
+td a:hover {
    text-decoration-line: none;
 
 }
@@ -2265,12 +2271,12 @@ td a:hover {
 			#headers nav ul {
 				list-style-type: none;
     			margin: 0;
-    			padding: 0;				
+    			padding: 0;
     			overflow: hidden;
-    			
+
 			}
 			#headers nav li {
-				
+
 				float: left;
 			}
 
@@ -2337,7 +2343,7 @@ td a:hover {
 
 		#headers.alt {
 			background-color: transparent;
-			
+
 		}
 
 			#headers.alt h1 {
