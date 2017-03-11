@@ -88,9 +88,31 @@
 	}
 
 	.container {
-		width: 1360px;
+		width: 960px;
 	}
 
+  .dark > .header > h2{
+    color: black;
+    margin-bottom: 15px;
+  }
+  .dark section > h3.major{
+    color: #333;
+  }
+  .header{
+			text-align: center;
+			margin: 0;
+  }
+  .header h2 {
+    font-size: 2em;
+    font-weight: 100;
+    margin-bottom: 0;
+  }
+
+  .header p {
+    margin: 1em 0 1em 0;
+    padding: 0;
+    text-align: center;
+  }
 	@media screen and (max-width: 1680px) {
 
 		.container.\31 25\25 {
@@ -112,7 +134,7 @@
 		}
 
 		.container {
-			width: 1200px;
+			width: 900px;
 		}
 
 	}
@@ -1344,7 +1366,7 @@
 
 	.dark {
 		color: #aaa;
-		color: rgba(255, 255, 255, 0.65);
+		color: rgba(255, 255, 255, 0.85);
 	}
 
 	input, textarea, select {
@@ -1478,6 +1500,7 @@
 			display: block;
 			margin: 0;
 			padding: 0.25em 0 0.5em 0;
+      color: black;
 		}
 
 	footer {
@@ -1857,9 +1880,12 @@
 				table.default tbody tr:nth-child(2n+2) {
 					background: #f8f8f8;
 				}
+        tbody > td:last-child {
+					background-color: black;
+				}
 
 			table.default td {
-				padding: 0.5em 1em 0.5em 1em;
+				padding: 1em 1em 0.5em 1em;
 			}
 
 			table.default th {
@@ -1870,7 +1896,9 @@
 			table.default tfoot td {
 				padding-top: 1em;
 			}
-
+      table.default tr:hover {
+        background-color: rgba(145, 136, 136, 0.5);
+      }
 	.dark table.default tbody tr {
 		border-color: rgba(255, 255, 255, 0.5);
 	}
@@ -2093,12 +2121,12 @@
 		.main > header {
 			background: #fff;
 			text-align: center;
-			padding: 5em 0 5em 0;
+			padding: 2.5em 0 2.5em 0;
 			margin: 0;
 		}
 
 			.main > header h2 {
-				font-size: 2.25em;
+				font-size: 1.7em;
 				font-weight: 100;
 				margin-bottom: 0;
 			}
@@ -2110,7 +2138,7 @@
 			}
 
 		.main > .content {
-			padding: 6em 0 6em 0;
+			padding: 3em 0 6em 0;
 		}
 
 			.main > .content h3 {
@@ -2122,7 +2150,7 @@
 			}
 
 			.main > .content.style1 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #F3EFE9, #a56365, #8c2d19);
+				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg,#a56365, #8c2d19, #641302);
 			}
 
 			.main > .content.style2 {
@@ -2153,14 +2181,14 @@
 		position: relative;
 		margin: 0;
 		text-align: center;
-		padding: 4em 0 8em 0;
+		padding: 4em 0 3em 0;
 		box-shadow: inset 0 1px 0 0 #e6e6e6;
 	}
 
 		#footer .copyright {
 			margin-top: 3em;
 			font-size: 0.8em;
-			color: #aaa;
+			color: #333;
 		}
 
 			#footer .copyright a {
@@ -2191,10 +2219,10 @@
  }
 
 .box{
-   width:277px; 
- 	background:#FCFBDF;    
+   width:277px;
+ 	background:#FCFBDF;
 
-} 
+}
 .box img{
     width:277px;
     display:block;
@@ -2207,7 +2235,7 @@
     position:absolute;
     opacity:0.5;
      background-color: rgba(255,255,255,.75);
-  
+
 }
 .box .imgWrap:before {top:0; left:0; width:100%; height:10px;}
 .box .imgWrap:after {bottom:0; left:0; width:100%; height:10px;}
@@ -2287,7 +2315,8 @@ td a:hover {
 				border: 0;
 			}
 			#headers h1 img {
-				top: 0.4em;
+				top: 0.3em;
+        left: 0.5em;
 				height: 3.5em;
 				position:absolute;
 			}
