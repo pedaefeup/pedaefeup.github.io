@@ -3,7 +3,8 @@
 
 
 @font-face {
-    font-family: Roboto;
+    font-family: LemonMilk;
+    src: url('../fonts/LemonMilk.otf');
 }
 
 /*
@@ -62,25 +63,6 @@
 	}
 
 /* Containers */
-
-
-	body, html {
-    height: 100%;
-    margin: 0;
-}
-
-	.bg {
-	    /* The image used */
-	    background-image: url("../../images/background.png");
-
-	    /* Full height */
-	    height: 100%; 
-
-	    /* Center and scale the image nicely */
-	    background-position: center;
-	    background-repeat: no-repeat;
-	    background-size: cover;
-	}
 
 	.container {
 		margin-left: auto;
@@ -2104,18 +2086,14 @@
   pointer-events: none;  /**<-----------*/
   opacity: 0.2;
 }
-
-	#image {
-		background-image: url("../../images/background.png");
-		height: 100%;
-	    background-position: center;
-	    background-repeat: no-repeat;
-	    background-size: cover;
-	}
-
 	#header {
 		position: relative;
 		margin: 0;
+		background-image: url("images/overlay.png"), url("../../images/header.png");
+		background-size: auto, cover;
+		background-position: top left, center center;
+		background-repeat: repeat, no-repeat;
+		padding: 10em 0 10	em 0;
 		text-align: center;
 		color: #000;
 	}
@@ -2182,7 +2160,29 @@
 				background: #433;
 			}
 
+			.main > .content.style1 {
+				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg,#a56365, #8c2d19, #641302);
+			}
 
+			.main > .content.style2 {
+				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #F3EFE9, #a56365, #8c2d19);
+			}
+
+			.main > .content.style3 {
+				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
+			}
+
+			.main > .content.style4 {
+				padding-top: 0;
+				background: #fff;
+			}
+			.main > .content.style5 {
+				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/header.png"), linear-gradient(45deg, #F3EFE9, #a56365, #8c2d19);
+				background-size: cover;
+				font-family: LemonMilk;
+				color:#000;
+
+			}
 
 
 
@@ -2289,6 +2289,9 @@ td a:hover {
 
 /* Header */
 
+ 	#header {
+		padding: 5em 0 5em 0;
+		}
 	#headers {
 		-moz-transition: background-color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out;
@@ -2699,6 +2702,9 @@ td a:hover {
 			/* Header */
 
 
+ 	#header {
+		padding: 10em 0 10em 0;
+		}
 
 		/* Main Sections */
 
@@ -2749,8 +2755,10 @@ td a:hover {
 
 		/* Header */
 /*did something here*/
-
-
+			#header {
+				margin: 0 !important;
+				padding: 8em 2em 8em 2em;
+			}
 
 				#header header p {
 					margin-top: 1em;
@@ -2854,6 +2862,9 @@ td a:hover {
 
 		/* Header */
 
+			#header {
+				padding: 6em 20px 6em 20px;
+			}
 
 				#header > header {
 					padding: 0 1em 0 1em;
