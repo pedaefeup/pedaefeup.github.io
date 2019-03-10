@@ -134,7 +134,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #fff;
+  color: #000;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
@@ -317,6 +317,25 @@ header.masthead h2 {
   }
 }
 
+@media (max-width:768px){
+  .sponsor-margin-5{
+   margin: 5em;
+  }
+  .sponsor-margin-2{
+    margin: 2em;
+   }
+
+   .sponsor-margin-top{
+    margin-top: 2em;
+    margin-bottom: 2em;
+   }
+
+   .sponsor-margin-top-plus{
+    margin-top: 5em;
+    margin-bottom: 5em;
+   }
+}
+
 .floating-label-form-group {
   position: relative;
   border-bottom: 1px solid #e9ecef;
@@ -363,7 +382,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #b32d10;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -382,11 +401,11 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #18BC9C;
+  color: #b32d10;
 }
 
 a:focus, a:hover, a:active {
-  color: #128f76;
+  color: #b32d10;
 }
 
 .btn {
@@ -394,7 +413,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #18BC9C !important;
+  background-color: #b32d10 !important;
 }
 
 .bg-secondary {
@@ -402,7 +421,7 @@ a:focus, a:hover, a:active {
 }
 
 .text-primary {
-  color: #18BC9C !important;
+  color: #b32d10 !important;
 }
 
 .text-secondary {
@@ -414,9 +433,9 @@ a:focus, a:hover, a:active {
   border-color: #b32d10;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #128f76;
-  border-color: #128f76;
+.btn-primary:hover, button.bg-primary:focus, .btn-primary:focus, .btn-primary:active , button.bg-primary:hover{
+  background-color: #b32d10 !important;
+  border-color: #b32d10;
 }
 
 .btn-secondary {
@@ -496,5 +515,36 @@ header.masthead {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.card {
+  color:black;
+}
+
+.card:hover{
+  color: #b32d10;
+  text-decoration: none;
+}
+
+.speakerCard a:hover{
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .title-padding{
+    padding: 0;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    font-size: 1.8em;
+  }
+
+  #mainNav img{
+    margin-right:0em;
+  }
+
+  .navbar-brand{
+    margin-right: 0em;
+    font-size: large;
+  }
 }
 
