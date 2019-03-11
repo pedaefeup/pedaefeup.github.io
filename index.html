@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>FEUP Engeneering Days</title>
+    <title>FEUP Engineering Days</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,6 +23,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/freelancer.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
 
   </head>
 
@@ -38,9 +39,6 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="about.html">Sobre</a>
-            </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="schedule.html">Programa</a>
             </li>
@@ -60,11 +58,190 @@
 
     <!-- Header -->
 
-    <header class="masthead text-center text-white d-flex">
+    <!---<header class="masthead text-center text-white d-flex">
      
-    </header>
+    </header>-->
 
-    
+    <div id="main-slide" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#main-slide" data-slide-to="0" class="active"></li>
+        <li data-target="#main-slide" data-slide-to="1"></li>
+        <li data-target="#main-slide" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="img/portfolio/slide1.jpg" alt="First slide">
+          <div class="carousel-caption d-md-block">
+            <p class="fadeInUp wow" data-wow-delay=".6s">FEUP Engineering Days</p>
+            <h1 class="wow fadeInDown heading" data-wow-delay=".4s">Agarra Esta Oportunidade</h1>
+            <a href="https://www.eventbrite.pt/e/bilhetes-feup-engineering-days-2019-58542353756" class="fadeInLeft wow btn btn-outline-light btn-lg" data-wow-delay=".6s">Inscrições</a>
+            <a href="#sobre" class="fadeInRight wow btn btn-outline-light btn-lg" data-wow-delay=".6s">Saber Mais</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/portfolio/slide5.jpg" alt="Second slide">
+          <div class="carousel-caption d-md-block">
+            <p class="fadeInUp wow" data-wow-delay=".6s">FEUP Engineering Days</p>
+            <h1 class="wow bounceIn heading" data-wow-delay=".7s">Mais de 30 empresas</h1>
+            <a href="https://www.eventbrite.pt/e/bilhetes-feup-engineering-days-2019-58542353756" class="fadeInUp wow btn btn-outline-light btn-lg" data-wow-delay=".8s">Inscrições</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/portfolio/slide6.jpg" alt="Third slide">
+          <div class="carousel-caption d-md-block">
+            <p class="fadeInUp wow" data-wow-delay=".6s">FEUP Engineering Days</p>
+            <h1 class="wow fadeInUp heading" data-wow-delay=".6s">Reserva já o teu lugar!</h1>
+            <a href="https://www.eventbrite.pt/e/bilhetes-feup-engineering-days-2019-58542353756" class="fadeInUp wow btn btn-outline-light btn-lg" data-wow-delay=".8s">Inscrições</a>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#main-slide" role="button" data-slide="prev">
+        <span class="carousel-control" aria-hidden="true"><i class="fas fa-angle-left"></i></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#main-slide" role="button" data-slide="next">
+        <span class="carousel-control" aria-hidden="true"><i class="fas fa-angle-right"></i></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+      <section class="counter-section section-padding" id="sobre">
+        <div class="container">
+          <div class="row">
+            <!-- Counter Item -->
+            <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+              <div class="counter wow fadeInRight" data-wow-delay="0.3s">
+                <div class="icon"><i class="fas fa-map-marked"></i></div>
+                <p>FEUP</p>
+                <span>Porto, Portugal</span>
+              </div>
+            </div>
+            <!-- Counter Item -->
+            <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+              <div class="counter wow fadeInRight" data-wow-delay="0.6s">
+                <div class="icon"><i class="fas fa-clock"></i></div>
+                <p>Março 13 - 15, 2018</p>
+                <span>08:00 – 18:30</span>
+              </div>
+            </div>
+            <!-- Counter Item -->
+            <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+              <div class="counter wow fadeInRight" data-wow-delay="0.9s">
+                <div class="icon"><i class="fas fa-4x fa-users"></i></div>
+                <p>35 Empresas</p>
+                <span>Entrevistas - Pitchs - Palestras</span>
+              </div>
+            </div>
+            <!-- Counter Item -->
+            <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+              <div class="counter wow fadeInRight" data-wow-delay="1.2s">
+                <div class="icon"><i class="fas fa-4x fa-coffee"></i></div>
+                <p>Coffee Breaks</p>
+                <span>Novidade - Lanche do Finalista</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section-padding" style="padding:0;">
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col-12">
+              <div class="section-title-header text-center">
+                <h1 class="section-title wow fadeInUp mb-5" data-wow-delay="0.2s">Notícias Relacionadas</h1>
+                
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-md-6 col-lg-4 mb-5">
+              <div class="about-item">
+                <img class="img-fluid" src="img/portfolio/uporto.jpg" alt="" style="width:100%;">
+                <div class="about-text">
+                  <h3><a href="https://noticias.up.pt/os-dias-de-engenharia-estao-a-chegar-a-feup/">Os "Dias de Engenharia" estão a chegar à FEUP</a></h3>
+                  <p>É já um dos maiores eventos de empregabilidade a nível nacional e está de volta à Faculdade de Engenharia da Universidade do Porto (FEUP) nos próximos dias 13, 14 e 15 de março. </p>
+                  <a class="btn btn-dark btn-rm" href="https://noticias.up.pt/os-dias-de-engenharia-estao-a-chegar-a-feup/">Ler Mais</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-4 mb-5">
+              <div class="about-item">
+                <img class="img-fluid" src="img/portfolio/talent.png" alt="">
+                <div class="about-text">
+                  <h3><a href="https://www.talentportugal.com/en/events/feup-engineering-days-2019-922">FEUP Engineering Days 2019</a></h3>
+                  <p>Organizado pela Associação de Estudantes da Faculdade de Engenharia da Universidade do Porto, o FEUP Engineering Days é um evento de índole pedagógica, visando despertar uma visão empreendedora nos estudantes, mediante o seu contacto direto com o tecido empresarial.</p>
+                  <a class="btn btn-dark " href="https://www.talentportugal.com/en/events/feup-engineering-days-2019-922">Ler Mais</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4 mb-5">
+              <div class="about-item">
+                <img class="img-fluid" src="img/portfolio/alten.jpg" alt="">
+                <div class="about-text">
+                  <h3><a href="https://www.alten.pt/events/feup-engineering-days/">FEUP Engineering Days</a></h3>
+                  <p>ALTEN PORTUGAL will be present at FEUP Engineering Days. The fair will take place at the Faculdade de Engenharia da Universidade of Porto during March 13 and 14.</p>
+                  <a class="btn btn-dark btn-rm" href="https://www.alten.pt/events/feup-engineering-days/">Ler Mais</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sponsors" class="section-padding">
+        <div class="container">
+          <div class="row mb-3">
+            <div class="col-12">
+              <div class="section-title-header text-center mb-5">
+                <h1 class="section-title wow fadeInUp mb-5" data-wow-delay="0.2s">Sponsors</h1>
+               
+              </div>
+            </div>
+          </div>
+          <div class="row mb-30 text-center wow fadeInDown" data-wow-delay="0.3s">
+            <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="spnsors-logo">
+                <a href="https://www.bosch.com/"><img class="img-fluid" src="img/sponsors/bosch-logo.png" alt="">
+                <span> <strong>Main Sponsor</strong></span>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="spnsors-logo">
+                <a href="https://www.microsoft.com/"><img class="img-fluid" src="img/sponsors/ms_logo.jpg" alt=""></a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="spnsors-logo">
+                <a href="https://www.aptiv.com"><img class="img-fluid" src="img/sponsors/aptiv_logo.png" alt=""></a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="spnsors-logo">
+                <a href="https://home.kpmg/pt/en/home.html"><img class="img-fluid" src="img/sponsors/KPMG_logo.png" alt=""></a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="spnsors-logo">
+                <a href="https://www.syone.com/"><img class="img-fluid" src="img/sponsors/syone_logo.png" alt=""></a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="spnsors-logo">
+                <a href="http://www.retail-consult.com/"><img class="img-fluid" src="img/sponsors/retail-consult.png" alt=""></a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="spnsors-logo">
+                <a href="http://www.conduril.pt/en/"><img class="img-fluid" src="img/sponsors/conduril_logo.jpg" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
     <!-- Footer -->
     <footer class="footer text-center">
@@ -119,157 +296,31 @@
       </a>
     </div>
 
-    <!-- Portfolio Modals -->
 
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/circus.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/safe.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/wow.js"></script>
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
+    <script src="js/main.js"></script>
     <script src="js/freelancer.min.js"></script>
 
     <script src="js/schedule.js"></script>
     <script src="js/modernizr.js"></script>
+
+
 
   </body>
 
