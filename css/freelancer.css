@@ -799,16 +799,17 @@ header.masthead {
   padding: 0 10em;
 }
 
-.center-flex{
-  display: flex;
-  justify-content: center;
-}
+
 
 .vertical-flex{
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+/*
+.summit .one-hour, .summit .half-hour{
+  display: none;
+}*/
 
 
 @media(max-width: 992px){
@@ -818,6 +819,11 @@ header.masthead {
 }
 
 @media (max-width: 576px) {
+
+  .center-flex{
+    display: flex;
+    justify-content: center;
+  }
 
   .tsb-perfil{
     display: none;
