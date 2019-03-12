@@ -262,6 +262,10 @@ header.masthead h2 {
   .portfolio .portfolio-item {
     margin-bottom: 30px;
   }
+
+  .tsb-team{
+    display: none;
+  }
 }
 
 .portfolio-modal .portfolio-modal-dialog {
@@ -298,7 +302,7 @@ header.masthead h2 {
     font-size: 3rem;
   }
 
-  #margin-more, #margin-plus{
+  #margin-more, #margin-plus, #margin-super{
     margin-right: -20em;
   }
 
@@ -488,6 +492,10 @@ header.masthead {
   color: #fff;
 }
 
+.talk a{
+  color: #000;
+}
+
 .break {
   background-color: #8c2d19;
   color: #fff;
@@ -534,6 +542,9 @@ header.masthead {
   text-decoration: none;
 }
 
+.speakers img {
+  filter: grayscale(100%);
+}
 
 
 #main-slide .carousel-control {
@@ -788,6 +799,16 @@ header.masthead {
   padding: 0 10em;
 }
 
+.center-flex{
+  display: flex;
+  justify-content: center;
+}
+
+.vertical-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 
 @media(max-width: 992px){
@@ -797,6 +818,10 @@ header.masthead {
 }
 
 @media (max-width: 576px) {
+
+  .tsb-perfil{
+    display: none;
+  }
   
   .padding-schedule{
     padding: 0;
@@ -820,7 +845,7 @@ header.masthead {
 
   #main-slide{
 
-    margin-top:5em;
+    margin-top:6em;
   }
 
   #main-slide .carousel-item .carousel-caption p{
@@ -844,4 +869,15 @@ header.masthead {
 
     display: none;
   }
+
+  #main-slide .carousel-control-next span{
+    padding: 0;
+  }
+  
+  .counter-section{
+    padding: 0;
+  }
 }
+
+
+
