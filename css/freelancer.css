@@ -877,7 +877,36 @@ header.masthead {
   .counter-section{
     padding: 0;
   }
+
+  .schedule .btn-outline-dark{
+    margin-bottom:1em;
+  }
+
+  .one-hour, .half-hour, thead{
+    display: none;
+  }
+
+  tbody{
+    display: inline-grid;
+  }
+
+  .workshop-critical{
+    font-size: large;
+  }´
+
+  .font-small{
+    font-size: large;
+  }
+
+  tbody h4{
+    font-size:large;
+  }
 }
 
+@media (max-width: 321px) {
 
+  #mainNav a{
+    font-size: smaller;
+  }
+}
 
