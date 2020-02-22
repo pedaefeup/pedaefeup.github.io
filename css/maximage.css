@@ -50,7 +50,8 @@ div.mc-image {
 	-o-background-size: cover;
 	background-size: cover;
 	/*background-position:center center;*/
-	background-position:right;
+	/*background-position:right;*/
+	background-position:contain;
 	background-repeat:no-repeat;
 	height:100%;
 	overflow:hidden;
