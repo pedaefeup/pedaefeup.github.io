@@ -58,7 +58,7 @@ div.mc-image {
 }
 
 
-@media (max-width:766px){
+@media screen and (max-width:766px){
 
 	div.mc-image {
 		background-position:right !important;
