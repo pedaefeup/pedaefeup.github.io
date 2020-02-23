@@ -21,12 +21,7 @@ h1{font-size: 5em; line-height: 0.5em; padding: 0; margin-bottom: 0em;}
 h5{font-size: 28px; line-height: 35px; padding: 0; margin: 0; color: #b7b7b7;}
 
 
-@media screen and (max-width: 500px){
 
-	h1{
-		font-size:10em;
-	}
-  }
 
 a {
 	color: #b7b7b7;
@@ -56,10 +51,10 @@ a:hover {text-decoration:underline;}
 /* Set Page Elements */
 .content { 
 	float:left;
-	margin-left: 38px;
+	margin-left: 3em;
 	position:absolute;
 	top:10em;
-	width:600px;
+	width:30em;
 	z-index:9999;
 	-webkit-font-smoothing:antialiased;
 }
@@ -141,3 +136,19 @@ button.full-screen:hover {opacity: 1;}
 #arrow_left {
 	right:95px;
 }
+
+
+@media screen and (max-width: 70em){
+
+	h1{
+		font-size:9em;		
+	}
+	h2{
+		font-size: 3em;
+	}
+
+	.content{
+		width: 40em;
+		top: 20em;
+	}
+  }

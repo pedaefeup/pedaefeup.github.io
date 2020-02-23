@@ -24,44 +24,53 @@ body .mc-cycle {
 	width:100%;
 	z-index:-1;
 }
+@media screen and (min-width:200px) {
+	div.mc-image {
+		background-position:right top;
+		width: 140% !important;
+		
+	}
+}
 
 
-div.mc-image {
-	/*NOTE: Mozilla flickers when fading and using 'all', so we have to be specific with what property we want to transition:
-	 	If you are using fading transitions, use 'opacity: */
-	-webkit-transition: opacity 1s ease-in-out; 
-	-moz-transition: opacity 1s ease-in-out; 
-	-o-transition: opacity 1s ease-in-out; 
-	transition: opacity 1s ease-in-out;
-	
-	/*If you are using horizontal slide transitions, use the following CSS:
-	-webkit-transition: left 1s ease-in-out; 
-	-moz-transition: left 1s ease-in-out; 
-	-o-transition: left 1s ease-in-out; 
-	transition: left 1s ease-in-out;*/
-	
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	/*background-position:center center;*/
-	/*background-position:right;*/
-	background-position:contain;
-	background-repeat:no-repeat;
-	height:100%;
-	overflow:hidden;
-	width:100%;
+@media screen and (min-width:62em){
+	div.mc-image {
+		/*NOTE: Mozilla flickers when fading and using 'all', so we have to be specific with what property we want to transition:
+			If you are using fading transitions, use 'opacity: */
+		-webkit-transition: opacity 1s ease-in-out; 
+		-moz-transition: opacity 1s ease-in-out; 
+		-o-transition: opacity 1s ease-in-out; 
+		transition: opacity 1s ease-in-out;
+		
+		/*If you are using horizontal slide transitions, use the following CSS:
+		-webkit-transition: left 1s ease-in-out; 
+		-moz-transition: left 1s ease-in-out; 
+		-o-transition: left 1s ease-in-out; 
+		transition: left 1s ease-in-out;*/
+		
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		/*background-position:center center;*/
+		/*background-position:right;*/
+		background-position:top;
+		background-repeat:no-repeat;
+		height:100%;
+		overflow:hidden;
+		width:100% !important;
+	}
 }
 
 .mc-old-browser .mc-image {
 	overflow:hidden;
 }
 
-
-@media screen and (max-width:766px){
-
+/*
+@media screen and (min-width:100px) {
 	div.mc-image {
-		background-position:right !important;
-		width:140% !important;
+		background-position:right;
+		
 	}
-  }
+}
+
