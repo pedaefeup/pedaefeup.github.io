@@ -25,11 +25,6 @@ body .mc-cycle {
 	z-index:-1;
 }
 
-@media only screen and (max-width: 500px) {
-
-	
-
-}
 
 div.mc-image {
 	/*NOTE: Mozilla flickers when fading and using 'all', so we have to be specific with what property we want to transition:
@@ -56,7 +51,6 @@ div.mc-image {
 	height:100%;
 	overflow:hidden;
 	width:100%;
-	--width:140% !important;
 }
 
 .mc-old-browser .mc-image {
@@ -64,10 +58,10 @@ div.mc-image {
 }
 
 
-@media (max-width:500px){
+@media (max-width:766px){
 
 	div.mc-image {
-		background-position:right;
+		background-position:right !important;
 		width:140% !important;
 	}
   }
