@@ -1,180 +1,258 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]> <html lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7]>    <html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class='no-js' lang='en'>
-	<!--<![endif]-->
+<html lang="en">
 	<head>
-		<meta charset='utf-8' />
-		<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
-		<title>Feup Engineering Days</title>	
-		
-		<!-- <link rel="shortcut icon" href="favicon.ico" /> -->
-		<link rel="apple-touch-icon" href="images/favicon.png" />
-		
-		<link rel="stylesheet" href="css/maximage.css?<?php echo time(); ?>" type="text/css" media="screen" charset="utf-8" />
-		<link rel="stylesheet" href="css/styles.css?<?php echo time(); ?>" type="text/css" media="screen" charset="utf-8" />
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,
+			shrink-to-fit=no">
 
-		<!-- <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet"> -->
-		<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+		<title>Feup Engineering Days</title>
 
-		<script src="https://kit.fontawesome.com/aaf82bc6df.js" crossorigin="anonymous"></script>
-		
-		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-		
-		<!--[if IE 6]>
-			<style type="text/css" media="screen">
-				.gradient {display:none;}
-			</style>
-		<![endif]-->
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<!-- Icon -->
+		<link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
+		<!-- Slicknav -->
+		<link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
+		<!-- Nivo Lightbox -->
+		<link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css">
+		<!-- Animate -->
+		<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+		<!-- Main Style -->
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+		<!-- Responsive Style -->
+		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 	</head>
 	<body>
 
-		<!-- Social Links -->
-		<nav class="social-nav">
-			<ul>
-				<li><a href="https://www.facebook.com/events/2463676180617134/"><img src="images/icon-facebook.png" /></a></li>			
-				<li><a href="https://www.linkedin.com/in/feup-engineering-days-058828144/"><img src="images/icon-linkedin.png" /></a></li>
-				<li><a href="https://www.instagram.com/aefeup/"><img src="images/icon-instagram.png" width="20"/></a></li>
-			</ul>
-		</nav>
+		<!-- Header Area wrapper Starts -->
+		<header id="header-wrap">
+			<nav class="social-nav">
+				<ul>
+					<li><a href="https://www.facebook.com/events/2463676180617134/"><img
+								src="assets/img/icon-facebook.png" /></a></li>
+					<li><a href="https://www.linkedin.com/in/feup-engineering-days-058828144/"><img
+								src="assets/img/icon-linkedin.png" /></a></li>
+					<li><a href="https://www.instagram.com/aefeup/"><img
+								src="assets/img/icon-instagram.png" width="20" /></a></li>
+				</ul>
+			</nav>
+			<!-- Navbar Start 
+			<nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
+				<div class="container">
+					 Brand and toggle get grouped for better mobile display
+					<div class="navbar-header">
+						<button class="navbar-toggler" type="button" data-toggle="collapse"
+							data-target="#main-navbar" aria-controls="main-navbar"
+							aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+							<span class="icon-menu"></span>
+							<span class="icon-menu"></span>
+							<span class="icon-menu"></span>
+						</button>
+						<a href="index.html" class="navbar-brand">FEUP ENGINEERING DAYS
+							 <img src="assets/img/logo.png" alt="">
+						</a>
+					</div>
 
-		<!-- Switch to full screen -->
-		<!-- <button class="full-screen" onclick="$(document).toggleFullScreen()"></button> -->
-
-		<!-- Site Logo -->
-		<div id="logo"><img src="images/aefeup-logo-white.png" alt=""></div>
-
-		<!-- Main Navigation -->
-		<!-- <nav class="main-nav">
-			<ul>
-				<li><a href="#home" class="active">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav> -->
-
-		<!-- Slider Controls -->
-		<a href="" id="arrow_left"><img src="images/arrow-left.png" alt="Slide Left" /></a>
-		<a href="" id="arrow_right"><img src="images/arrow-right.png" alt="Slide Right" /></a>
-
-		<!-- Home Page -->
-		<section class="content show" id="home">
-			<!-- <h1 style="color:#f0047f">BRO, </h1>
-			<h1>I'M OFF</h1>
-			<h1>TO WORK!</h1> -->
-
-			<!-- <h5>Our new site is coming soon!</h5>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate arcu sit amet sem venenatis dictum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse eu massa sed orci interdum lobortis. Vivamus rutrum.</p>
-			<p><a href="#about">More info &#187;</a></p> -->
-		</section>
-
-		<!-- About Page -->
-		<section class="content hide" id="about">
-			<h1>About</h1>
-			<h5>Here's a little about what we're up to.</h5>
-			<p>Nullam quis arcu a elit feugiat congue nec non orci. Pellentesque feugiat bibendum placerat. Nullam eu massa in ipsum varius laoreet. Ut tristique pretium egestas. Sed sed velit dolor. Nam rhoncus euismod lorem, id placerat ipsum placerat nec. Mauris ut eros a ligula tristique lacinia non blandit metus. Sed vitae velit lorem, et scelerisque diam.</p>
-			<p><a href="#">Follow our updates on Twitter</a></p>
-		</section>
-
-		<!-- Contact Page -->
-		<section class="content hide" id="contact">
-			<h1>Contact</h1>
-			<h5>Get in touch.</h5>
-			<p>Email: <a href="#">info@avenir.com</a><br />
-				Phone: 123.456.7890<br /></p>
-			<p>123 East Main<br />
-				New York, NY 12345</p>
-		</section>
-		
-		<!-- Background Slides -->
-		<div id="maximage">
-
-			<div>
-				<section class="content show" id="home">
-					<h1 style="color:#373c6d">DAD, </h1>
-					<h1>I'M OFF</h1>
-					<h1>TO WORK!</h1>
-					<h2 style="color:#373c6d">FEUP ENGINEERING DAYS 2020</h2>
-				</section>
-				<img src="images/backgrounds/xico4.png" alt="" />
-				<!-- <img class="gradient" src="images/backgrounds/gradient.png" alt="" /> -->
-			</div>
-			<div>
-				<section class="content show" id="home">
-					<h1 style="color:#BA87BA">MOM, </h1>
-					<h1>I'M OFF</h1>
-					<h1>TO WORK!</h1>
-					<h2 style="color:#BA87BA">FEUP ENGINEERING DAYS 2020</h2>
-				</section>
-				<img src="images/backgrounds/xico4.png" alt="" />
-				<!-- <img class="gradient" src="images/backgrounds/gradient.png" alt="" /> -->
-			</div>
-			<div>
-				<section class="content show" id="home">
-					<h1 style="color:#4FA0CA">BRO, </h1>
-					<h1>I'M OFF</h1>
-					<h1>TO WORK!</h1>
-					<h2 style="color:#4FA0CA">FEUP ENGINEERING DAYS 2020</h2>
-				</section>
-				<img src="images/backgrounds/xico4.png" alt="" />
-				<!-- <img class="gradient" src="images/backgrounds/gradient.png" alt="" /> -->
-			</div>
-
-			<div>		
-				<section class="content show" id="home">
-					<h1 style="color:#f0047f">BABY, </h1>
-					<h1>I'M OFF</h1>
-					<h1>TO WORK!</h1>
-					<h2 style="color:#f0047f">FEUP ENGINEERING DAYS 2020</h2>
-					</section>
-					<img src="images/backgrounds/xico4.png" alt="" />
-					<!-- <img class="gradient" src="images/backgrounds/gradient.png" alt="" /> -->
+					<div class="collapse navbar-collapse" id="main-navbar">
+						<ul class="navbar-nav mr-auto w-100 justify-content-end">
+							<li class="nav-item active">
+								<a class="nav-link" href="#header-wrap">
+									Home
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#about">
+									About
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#schedules">
+									schedules
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#team">
+									Speakers
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#gallery">
+									Gallery
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#faq">
+									Faq
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#sponsors">
+									Sponsors
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#pricing">
+									pricing
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#google-map-area">
+									Contact
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
+-->
+			<!-- Mobile Menu Start 
+				<ul class="mobile-menu">
+					<li>
+						<a class="page-scrool" href="#header-wrap">Home</a>
+					</li>
+					<li>
+						<a class="page-scrool" href="#about">About</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="#schedules">schedules</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="#team">Speakers</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="#gallery">Gallery</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="#faq">Faq</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="#sponsors">Sponsors</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="#pricing">pricing</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="#google-map-area">Contact</a>
+					</li>
+				</ul>
+			 Mobile Menu End 
+						</nav>-->
+			<!-- Navbar End -->
+
+			<!-- Main Carousel Section Start -->
+			<div id="main-slide" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#main-slide" data-slide-to="0" class="active"></li>
+					<li data-target="#main-slide" data-slide-to="1"></li>
+					<li data-target="#main-slide" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100" src="assets/img/slider/slide1.png"
+							alt="First slide">
+						<div class="carousel-caption d-md-block">
+							<!-- <p class="fadeInUp wow" data-wow-delay=".6s">Global Grand Event on
+								Digital Design</p>
+							<h1 class="wow fadeInDown heading" data-wow-delay=".4s">Design
+								Thinking Conference</h1> 
+							<a href="#" class="fadeInLeft wow btn btn-common btn-lg"
+								data-wow-delay=".6s">Get Ticket</a>
+							<a href="#" class="fadeInRight wow btn btn-border btn-lg"
+								data-wow-delay=".6s">Explore More</a>-->
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="assets/img/slider/slide2.png"
+							alt="Second slide">
+
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="assets/img/slider/slide3.png"
+							alt="Third slide">
+
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#main-slide" role="button"
+					data-slide="prev">
+					<span class="carousel-control" aria-hidden="true"><i
+							class="lni-chevron-left"></i></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#main-slide" role="button"
+					data-slide="next">
+					<span class="carousel-control" aria-hidden="true"><i
+							class="lni-chevron-right"></i></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+			<!-- Main Carousel Section End -->
+
+		</header>
+
+		<!-- Header Area wrapper End -->
+
+		<!-- Coundown Section Start -->
+		<section class="countdown-timer section-padding">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="heading-count">
+							<h2 class="wow fadeInDown" data-wow-delay="0.2s">Event Will Start
+								In</h2>
+						</div>
+					</div>
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="row time-countdown justify-content-center wow fadeInUp"
+							data-wow-delay="0.2s">
+							<div id="clock" class="time-count"></div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Coundown Section End -->
+
+
+
+		<!-- Go to Top Link -->
+		<a href="#" class="back-to-top">
+			<i class="lni-chevron-up"></i>
+		</a>
+
+		<div id="preloader">
+			<div class="sk-circle">
+				<div class="sk-circle1 sk-child"></div>
+				<div class="sk-circle2 sk-child"></div>
+				<div class="sk-circle3 sk-child"></div>
+				<div class="sk-circle4 sk-child"></div>
+				<div class="sk-circle5 sk-child"></div>
+				<div class="sk-circle6 sk-child"></div>
+				<div class="sk-circle7 sk-child"></div>
+				<div class="sk-circle8 sk-child"></div>
+				<div class="sk-circle9 sk-child"></div>
+				<div class="sk-circle10 sk-child"></div>
+				<div class="sk-circle11 sk-child"></div>
+				<div class="sk-circle12 sk-child"></div>
+			</div>
 		</div>
-		
-		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js'></script>
-		<script src="js/jquery.easing.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery.cycle.all.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery.maximage.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery.fullscreen.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery.ba-hashchange.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script type="text/javascript" charset="utf-8">
-			$(function(){
-				$('#maximage').maximage({
-					cycleOptions: {
-						fx: 'fade',
-						speed: 1000, // Has to match the speed for CSS transitions in jQuery.maximage.css (lines 30 - 33)
-						timeout: 5000,
-						prev: '#arrow_left',
-						next: '#arrow_right',
-						pause: 0,
-						before: function(last,current){
-							if(!$.browser.msie){
-								// Start HTML5 video when you arrive
-								if($(current).find('video').length > 0) $(current).find('video')[0].play();
-							}
-						},
-						after: function(last,current){
-							if(!$.browser.msie){
-								// Pauses HTML5 video when you leave it
-								if($(last).find('video').length > 0) $(last).find('video')[0].pause();
-							}
-						}
-					},
-					onFirstImageLoaded: function(){
-						jQuery('#cycle-loader').hide();
-						jQuery('#maximage').fadeIn('fast');
-					}
-				});
-	
-				// Helper function to Fill and Center the HTML5 Video
-				jQuery('video,object').maximage('maxcover');
-	
-			});
-		</script>
-  </body>
+
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="assets/js/jquery-min.js"></script>
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/jquery.countdown.min.js"></script>
+		<script src="assets/js/jquery.nav.js"></script>
+		<script src="assets/js/jquery.easing.min.js"></script>
+		<script src="assets/js/wow.js"></script>
+		<script src="assets/js/jquery.slicknav.js"></script>
+		<script src="assets/js/nivo-lightbox.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/form-validator.min.js"></script>
+		<script src="assets/js/contact-form-script.min.js"></script>
+		<script src="assets/js/map.js"></script>
+		<!-- 	<script type="text/javascript"
+			src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script> -->
+	</body>
 </html>
