@@ -95,6 +95,10 @@ h2{
 }
 .main-nav ul li a.active {color: #ffa800;}
 
+#header-wrap{
+	mix-blend-mode: overlay;
+
+}
 .social-nav {
 	position:absolute;
 	top: 0px;

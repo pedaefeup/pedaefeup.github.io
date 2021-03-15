@@ -30,7 +30,10 @@ h1 {
   font-size: 50px;
 }
 
+#header-wrap{
+	mix-blend-mode: overlay;
 
+}
 
 a {
   -webkit-transition: all 0.2s linear;
@@ -352,15 +355,15 @@ h2{
 .social-nav {
 	position:absolute;
 	top: 0px;
-	left: 40px;
+	right: 40px;
 }
 .social-nav ul {margin: 0; padding:0;}
 .social-nav ul li{
 	list-style: none;
 	display:block;
 	float: left;
-	background: #393939;
-	padding:100px 10px 5px 10px;
+	background: #00ffea;
+	padding:5px 10px 5px 10px;
 	margin: 1px;
 	opacity: .5;
 }
