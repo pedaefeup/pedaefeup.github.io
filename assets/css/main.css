@@ -1085,7 +1085,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #f3f4f3;
 }
 
-#sponsors .spnsors-logo {
+#sponsors .spnsors-logo, .main-spnsors-logo {
   text-align: center;
   border-radius: 4px;
   padding: 20px;
@@ -1101,6 +1101,12 @@ a.back-to-top:hover, a.back-to-top:focus {
   border-color: transparent;
   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
 }
+
+#sponsors .main-spnsors-logo:hover{
+  border-color: transparent;
+  box-shadow: 0px 20px 40px rgba(0, 238, 255, 0.274);
+}
+
 
 .mainSponsor{
   width: 100em;
