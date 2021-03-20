@@ -356,8 +356,8 @@ h2{
 
 .social-nav {
 	position:absolute;
-	top: 0px;
-	right: 40px;
+	bottom: 0px;
+	left: 40px;
 }
 .social-nav ul {margin: 0; padding:0;}
 .social-nav ul li{
@@ -614,6 +614,11 @@ a.back-to-top:hover, a.back-to-top:focus {
   padding: 0 !important;
 }
 
+.no-padding-top {
+  padding-top: 0 !important;
+}
+
+
 .padding-left-none {
   padding-left: 0;
 }
@@ -711,7 +716,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   font-size: 15px;
 }
 
+.navbar{
+  background-color:  rgb(2, 12, 63);
 
+}
 
 .navbar-brand {
   position: relative;
@@ -1083,7 +1091,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 /* Sponsors Area */
-#sponsors {
+#sponsors, #main_sponsor {
   background: #f3f4f3;
 }
 
@@ -2415,7 +2423,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   background-color: black;
 }
 
-
+a{
+color: black;}
 .img-fluid{
-  height: 8em;
+  max-height: 8em;
 }
