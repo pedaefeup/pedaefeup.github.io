@@ -1099,8 +1099,12 @@ color: white;}
 }
 
 /* Sponsors Area */
-#sponsors, #main_sponsor {
+#sponsors {
   background: #f3f4f3;
+}
+
+#main-sponsor {
+  background: #f3f4f3 ;
 }
 
 #sponsors .spnsors-logo{
