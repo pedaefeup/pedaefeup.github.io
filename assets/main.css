@@ -976,7 +976,9 @@ a.back-to-top:hover, a.back-to-top:focus {
 #sponsors {
   background: #f3f4f3;
 }
-
+#main-sponsor {
+  background: #f3f4f3;
+}
 #sponsors .spnsors-logo {
   text-align: center;
   border-radius: 4px;
