@@ -1136,9 +1136,7 @@ color: white;}
 }
 
 /* Schedule Area */
-#schedules {
-  background: #f3f4f3;
-}
+
 
 #schedule-tab {
   position: relative;
@@ -2438,4 +2436,37 @@ color: white;}
 
 .img-fluid-sponsors{
   height: 8em;
+}
+
+.img-speakers {
+  display: flex;
+  justify-content: center;
+  max-height: 100%;
+}
+
+
+.signup-form  a
+{
+    position: relative;
+    color: #131F5D;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+.signup-form  a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #131F5D;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.7s ease-in-out;
+}
+
+.signup-form a:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
 }
