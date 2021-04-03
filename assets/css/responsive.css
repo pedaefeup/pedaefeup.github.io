@@ -196,8 +196,9 @@
     padding: 15px;
   }
   .schedule .schedule-tab-title .nav-tabs .nav-link {
-    width: 288px;
-  }
+    width: 67px;
+    padding: 5px 2px;
+  text-align-last: center;  }
   .accordion .header-title {
     font-size: 11px;
   }
