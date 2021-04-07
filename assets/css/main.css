@@ -1225,6 +1225,16 @@ color: white;}
 
 .schedule .card-header .images-box img {
   border-radius: 50%;
+  border: 3px solid transparent;
+  -webkit-transition: border-color 1s ease;
+         -moz-transition: border-color 1s ease;
+           -o-transition: border-color 1s ease;
+          -ms-transition: border-color 1s ease;
+              transition: border-color 1s ease;   
+}
+.schedule .card .card-header .images-box img:hover {
+
+  border: 3px solid #131F5D;
 }
 
 .schedule .card-header .time {
@@ -2469,4 +2479,22 @@ color: white;}
 .signup-form a:hover:before {
   visibility: visible;
   transform: scaleX(1);
+}
+
+
+.modal-speaker {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+
+.modal-speaker img{
+  max-width: 140px;
+  max-height: 140px;
+  border-radius: 50%;
+} 
+
+.modal-open {
+  padding-left: 15px;
 }
