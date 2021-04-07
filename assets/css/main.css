@@ -2496,5 +2496,5 @@ color: white;}
 } 
 
 .modal-open {
-  padding-left: 15px;
+  padding-right: 0px !important;
 }
