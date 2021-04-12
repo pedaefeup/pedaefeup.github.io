@@ -2498,3 +2498,9 @@ color: white;}
 .modal-open {
   padding-right: 0px !important;
 }
+
+
+.no-decor {
+  border-style: none !important; 
+  cursor: default !important;
+}
