@@ -2307,13 +2307,14 @@ color: white;}
 }
 
 #main-slide .carousel-item .carousel-caption p {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 #main-slide .carousel-item.active .carousel-caption {
   opacity: 1;
   transition: opacity 100ms ease 0s;
   z-index: 1;
+  top: 20%;
 }
 
 #main-slide .carousel-caption {
@@ -2323,7 +2324,10 @@ color: white;}
 }
 
 #main-slide .carousel-caption .btn {
-  margin: 25px 25px 0px 0px;
+  background-color: #00ffea;
+  color: #131F5D;
+  padding: 15px 15px;
+
 }
 
 #main-slide .carousel-control-next,
