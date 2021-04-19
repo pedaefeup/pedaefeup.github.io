@@ -2166,8 +2166,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   opacity: 1;
   transition: opacity 100ms ease 0s;
   z-index: 1;
+  top: 20%;
 }
-
 #main-slide .carousel-caption {
   color: #fff;
   position: absolute;
