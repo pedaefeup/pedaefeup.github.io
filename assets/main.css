@@ -2145,6 +2145,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   opacity: 0;
   transition: opacity 100ms ease 0s;
   z-index: 0;
+  top: 10%;
+
 }
 
 #main-slide .carousel-item .carousel-caption .heading {

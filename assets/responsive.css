@@ -1,7 +1,7 @@
 /* only small desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
   #main-slide .carousel-caption {
-    top: 32%;
+    top: 0%;
   }
   .carousel-indicators {
     font-size: 14px;
@@ -31,12 +31,15 @@
   #sponsors .spnsors-logo img {
     width: 80%;
   }
+  #main-slide .carousel-item.active .carousel-caption {
+    top:0%
+      }
 }
 
 /* tablets */
 @media (max-width: 991px) {
   #main-slide .carousel-caption {
-    top: 32%;
+    top: 0%;
   }
   #main-slide .carousel-item .carousel-caption .heading {
     font-size: 20px;
@@ -69,6 +72,9 @@
   #pricing .price-block-wrapper .pricing-list {
     padding: 10px 35px 10px 45px;
   }
+  #main-slide .carousel-item.active .carousel-caption {
+    top:0%
+      }
   #sponsors .spnsors-logo img {
     width: 80%;
   }
@@ -98,7 +104,7 @@
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   #main-slide .carousel-caption {
-    top: 32%;
+    top: 0%;
   }
   #main-slide .carousel-item .carousel-caption .heading {
     font-size: 20px;
@@ -151,6 +157,9 @@
   .footer-area h3 {
     margin-top: 30px;
   }
+  #main-slide .carousel-item.active .carousel-caption {
+    top:0%
+      }
 }
 
 /* mobile or only mobile */
@@ -162,7 +171,7 @@
     font-size: 16px;
   }
   #main-slide .carousel-caption {
-    top: 22%;
+    top: 0%!important;
   }
   #main-slide .carousel-item .carousel-caption .heading {
     font-size: 14px;
@@ -180,6 +189,9 @@
   #hero-area .contents .head-title {
     font-size: 15px;
   }
+  #main-slide .carousel-item.active .carousel-caption {
+    top:0%
+      }
   #hero-area .contents .btn {
     margin: 25px 3px 0 0;
   }
@@ -258,10 +270,13 @@
     letter-spacing: 0;
   }
   #main-slide .carousel-item .carousel-caption p {
-    font-size: 14px;
+    font-size: 10px;
   }
   #main-slide .carousel-caption .btn {
-    margin: 0;
+    margin: 0px;
+  }
+  #main-slide .carousel-item.active .carousel-caption {
+    top:0%;
   }
   #main-slide .carousel-indicators {
     display: none;
